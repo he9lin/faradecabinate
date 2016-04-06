@@ -1,0 +1,31 @@
+/*	Default Layout: 1200px.    */
+    
+.nf-item {width: 25%;}
+
+
+/*	Medium Device Layout: 992px.    */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .nf-item {width: 25%;}
+}
+
+
+/*	Tablet Layout: 768px.    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .nf-item {width: 33.33%;}
+}
+
+
+/*	Mobile Layout: 320px.	*/
+
+@media only screen and (max-width: 767px) {
+    .nf-item {width: 100%;}
+}
+
+
+/*	Wide Mobile Layout: 480px.	*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .nf-item {width: 50%;}
+}

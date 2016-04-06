@@ -1,0 +1,20 @@
+<div data-toggle="modal" data-target=".<%= item.modal_target %>" class="nf-item <%= item.modal_class %>">
+  <div class="item-box">
+    <img class="item-container" src="<%= item.image_src %>" alt="<%= item.name %>" />
+    <div class="item-mask">
+      <div class="item-caption">
+        <h5 class="white"><%= item.name %></h5>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade bs-example-modal-lg <%= item.modal_target %>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="table">
+        </div>
+        <img src="<%= item.image_src %>" alt="<%= item.name %>" />
+      </div>
+    </div>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+  </div>
+</div>

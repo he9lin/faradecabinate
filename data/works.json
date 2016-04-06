@@ -1,0 +1,10 @@
+{
+  "categories": [
+    { "name": "Espresso Shake", "filter": "espressoShake", "item_count": 14 },
+    { "name": "White Shake", "filter": "whiteShake", "item_count": 30 },
+    { "name": "Raised White", "filter": "raisedWhite", "item_count": 11 },
+    { "name": "Walnut Maple", "filter": "walnutMaple", "item_count": 3 },
+    { "name": "Walnut Shaker", "filter": "walnutShaker", "item_count": 6 },
+    { "name": "Cherry Flat Panel", "filter": "cherryFlatPanel", "item_count": 11 }
+  ]
+}

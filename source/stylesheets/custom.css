@@ -1,0 +1,27 @@
+﻿
+.bg-j {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.bg-j-1 {
+    background-image: url("../images/1.jpg");
+}
+.bg-j-2 {
+    background-image: url("../images/2.jpg");
+}
+.bg-j-3 {
+    background-image: url("../images/3.jpg");
+}
+.bg-j-4 {
+    background-image: url("../images/4.jpg");
+}
+#logo-a-w {
+    width: 205px;
+}
+#logo-a-w span {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
