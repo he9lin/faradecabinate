@@ -1,6 +1,6 @@
-<section id="service" class="wow fadeIn pt pt-sm-80 text-center">
+<section id="products" class="wow fadeIn pt pt-sm-80 text-center">
   <div class="container">
-    <h3>Services</h3>
+    <h3>Products</h3>
     <div class="spacer-30"></div>
     <!-- work Filter -->
     <div class="row">
@@ -16,7 +16,7 @@
     <div class="isotope-container">
       <% data.works.categories.each do |category| %>
         <% 1.upto(category.item_count) do |ind| %>
-          <%= partial "product", locals: { item: item_from_cat(category, ind) } %>
+          <%= partial "product", locals: { item: item_from_cat(category, ind), descs: category.descs } %>
         <% end %>
       <% end %>
     </div>

@@ -1,10 +1,76 @@
 {
   "categories": [
-    { "name": "Espresso Shake", "filter": "espressoShake", "item_count": 14 },
-    { "name": "White Shake", "filter": "whiteShake", "item_count": 30 },
-    { "name": "Raised White", "filter": "raisedWhite", "item_count": 11 },
-    { "name": "Walnut Maple", "filter": "walnutMaple", "item_count": 3 },
-    { "name": "Walnut Shaker", "filter": "walnutShaker", "item_count": 6 },
-    { "name": "Cherry Flat Panel", "filter": "cherryFlatPanel", "item_count": 11 }
+    { "name": "Espresso Shaker", "filter": "espressoShaker", "item_count": 14,
+      "descs": [
+        { "text": "All Wood Maple" },
+        { "text": "Full Overlay" },
+        { "text": "Solid Shaker Panel with Color Finish" },
+        { "text": "Dovetailed 3/4” Solid Wood Drawer with Soft-Closing Under Mount Drawer Glides" },
+        { "text": "3/4” plywood Edge Front Banded Shelves" },
+        { "text": "5/8”plywood boxes" },
+        { "text": "All soft-closing cabinets doors" },
+        { "text": "Matching Interior" }
+      ]
+    },
+    { "name": "White Shaker", "filter": "whiteShaker", "item_count": 30,
+      "descs": [
+        { "text": "All Wood Maple" },
+        { "text": "Full Overlay" },
+        { "text": "Solid Shaker Panel with Color Finish" },
+        { "text": "Dovetailed 3/4” Solid Wood Drawer with Soft-Closing Under Mount Drawer Glides" },
+        { "text": "3/4” plywood Edge Front Banded Shelves" },
+        { "text": "5/8”plywood boxes" },
+        { "text": "All soft-closing cabinets doors" },
+        { "text": "Matching Interior" }
+      ]
+    },
+    { "name": "Raised White", "filter": "raisedWhite", "item_count": 11,
+      "descs": [
+        { "text": "All Wood Maple" },
+        { "text": "Full Overlay" },
+        { "text": "Solid Shaker Panel with Color Finish" },
+        { "text": "Dovetailed 3/4” Solid Wood Drawer with Soft-Closing Under Mount Drawer Glides" },
+        { "text": "3/4” plywood Edge Front Banded Shelves" },
+        { "text": "5/8”plywood boxes" },
+        { "text": "All soft-closing cabinets doors" },
+        { "text": "White Interior" }
+      ]
+    },
+    { "name": "Walnut Maple", "filter": "walnutMaple", "item_count": 3,
+      "descs": [
+        { "text": "All Wood Maple" },
+        { "text": "Full Overlay" },
+        { "text": "Solid Shaker Panel with Color Finish" },
+        { "text": "Dovetailed 3/4” Solid Wood Drawer with Soft-Closing Under Mount Drawer Glides" },
+        { "text": "3/4” plywood Edge Front Banded Shelves" },
+        { "text": "5/8”plywood boxes" },
+        { "text": "All soft-closing cabinets doors" },
+        { "text": "White Interior" }
+      ]
+    },
+    { "name": "Walnut Shaker", "filter": "walnutShaker", "item_count": 6,
+      "descs": [
+        { "text": "All Wood Maple" },
+        { "text": "Full Overlay" },
+        { "text": "Solid Shaker Panel with Color Finish" },
+        { "text": "Dovetailed 3/4” Solid Wood Drawer with Soft-Closing Under Mount Drawer Glides" },
+        { "text": "3/4” plywood Edge Front Banded Shelves" },
+        { "text": "1/2”plywood boxe" },
+        { "text": "All soft-closing cabinets door" },
+        { "text": "White Interio" }
+      ]
+    },
+    { "name": "Cherry Flat Panel", "filter": "cherryFlatPanel", "item_count": 11,
+      "descs": [
+        { "text": "All Wood Maple" },
+        { "text": "Full Overlay" },
+        { "text": "Solid Shaker Panel with Color Finish" },
+        { "text": "Dovetailed 3/4” Solid Wood Drawer with Soft-Closing Under Mount Drawer Glides" },
+        { "text": "3/4” plywood Edge Front Banded Shelves" },
+        { "text": "1/2”plywood boxe" },
+        { "text": "All soft-closing cabinets door" },
+        { "text": "White Interio" }
+      ]
+    }
   ]
 }

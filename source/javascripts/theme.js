@@ -7,7 +7,7 @@
 
     $(window).load(function () {
         // ----------------------------------------------------------------------------------------------------------------------->
-        // SITE LOADER                     ||----------- 
+        // SITE LOADER                     ||-----------
         // ----------------------------------------------------------------------------------------------------------------------->
         $('#loader').fadeOut();
         $('#preloader').delay(350).fadeOut('slow');
@@ -18,7 +18,7 @@
 
 
     // ---------------------------------------------------------------------------------------------------------------------------->
-    // GENERAL SCRIPTS FOR ALL PAGES    ||----------- 
+    // GENERAL SCRIPTS FOR ALL PAGES    ||-----------
     // ---------------------------------------------------------------------------------------------------------------------------->
 
     $(document).ready(function () {
@@ -215,7 +215,7 @@ function sliderAll() {
         navigation: true,  // Show next and prev buttons
         pagination: true,  // Show pagination buttons
         navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        
+
     });
 
     // Image Slider
@@ -475,7 +475,7 @@ function pluginElement() {
 //                },
 //            });
 //        });
-//        
+//
 //        // bind filter button click
 //        $('.container-filter').on('click', '.categories', function () {
 //            var filterValue = $(this).attr('data-filter');
@@ -594,25 +594,6 @@ function shortcodeElements() {
         horizontalScrolling: false,
         verticalOffset: 500
     });
-
-
-    // Portfolio Lightbox Popup Elements
-//    lightbox();
-//    function lightbox() {
-//        $(".cbox-gallary1").colorbox({
-//            rel: 'gallary',
-//            maxWidth: "95%",
-//            maxHeight: "95%"
-//
-//        });
-//        $(".cbox-iframe").colorbox({
-//            iframe: true,
-//            maxWidth: "95%",
-//            maxHeight: "95%",
-//            innerWidth: 640,
-//            innerHeight: 390
-//        });
-//    };
 
     // Skills Progressbar Elements
     skillsProgressBar();
