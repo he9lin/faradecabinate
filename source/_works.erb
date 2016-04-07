@@ -7,7 +7,7 @@
       <ul class="isotope-filter">
         <li><a href="#" class="categories active" data-filter="*">All</a></li>
         <% data.works.categories.each do |category| %>
-          <li><a href="#" class="categories" data-filter=".<%= category.filter %>"><%= category.name %></a></li>
+          <li><a href="#" class="categories <%= category.filter %>" data-filter=".<%= category.filter %>"><%= category.name %></a></li>
         <% end %>
       </ul>
     </div>

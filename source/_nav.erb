@@ -10,8 +10,13 @@
         <li>
           <a class="scrollto" href="#about">About us</a>
         </li>
-        <li>
-          <a class="scrollto" href="#products">Products</a>
+        <li class="dropdown works-dropdown x-works-dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <% data.works.categories.each do |category| %>
+            <li><a href="#products" class="scrollto <%= category.filter %>" data-filter=".<%= category.filter %>"><%= category.name %></a></li>
+          <% end %>
+          </ul>
         </li>
         <li>
           <a class="scrollto" href="#contact">Contact</a>

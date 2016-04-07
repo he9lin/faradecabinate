@@ -38,7 +38,7 @@
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
-    
+
     margin-left: 30px;
     padding-top: 0;
 }
@@ -99,7 +99,6 @@
 
 .header.sticky .navigation ul ul li a, .header .navigation ul ul li a, .navigation ul ul li a {
     padding: 10px 20px;
-    color:#ddd;
     letter-spacing: 1px;
     font-weight:500;
     font-size:12px;
@@ -252,8 +251,8 @@
     .navigation {
         width: auto;
         margin-left: 0px;
-        
-        
+
+
     }
 
         .navigation ul {
@@ -293,7 +292,7 @@
         .navigation > ul > li > a, .header.sticky .navigation > ul > li > a {
             padding: 20px 16px;
         }
-    
+
         .navigation.align-center > ul,
         .navigation.align-right ul ul {
             text-align: left;
@@ -335,7 +334,7 @@
     .header.sticky .navigation ul ul ul li a, .header .navigation ul ul ul li a {
        padding:20px 20px 20px 45px;
     }
-        
+
             .navigation ul ul li:hover > a,
             .navigation ul ul li a:hover {
                 color: #e6ae49;
@@ -371,7 +370,7 @@
         cursor: pointer;
         font-size: 12px;
         text-transform: uppercase;
-        
+
         z-index:2;
         float:left;
     }

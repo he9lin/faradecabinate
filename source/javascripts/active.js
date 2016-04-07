@@ -1,4 +1,15 @@
 $(document).ready(function(){
+  $('.x-works-dropdown ul li a').click(function() {
+    var selector = $(this).attr('data-filter');
+
+    $(".isotope-filter li a").removeClass("active");
+    $(".isotope-filter li a" + selector).addClass("active");
+
+    $(".isotope-container").isotope({
+      filter: selector
+    });
+    return false;
+  });
   // Isotope Activation
   $('.isotope-container').imagesLoaded(function() {
     $(".isotope-container").isotope({
@@ -17,11 +28,6 @@ $(document).ready(function(){
     var selector = $(this).attr('data-filter');
     $(".isotope-container").isotope({
       filter: selector
-      // animationOptions: {
-      //   duration: 750,
-      //   easing: 'linear',
-      //   queue: false,
-      // }
     });
     return false;
   });

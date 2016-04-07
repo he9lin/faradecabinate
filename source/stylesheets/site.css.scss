@@ -21,3 +21,11 @@ section#action-box {
 .modal-dialog.modal-lg {
   margin-top: 80px;
 }
+
+ul.isotope-filter li a.active {
+  font-weight: bold;
+}
+
+nav.navigation li.works-dropdown ul.dropdown-menu li a {
+  color: #333;
+}
