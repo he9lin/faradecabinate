@@ -71,6 +71,18 @@
         { "text": "All soft-closing cabinets door" },
         { "text": "White Interio" }
       ]
+    },
+    { "name": "Sink", "filter": "sink", "item_count": 9,
+      "descs": [
+      ]
+    },
+    { "name": "Dark Gray", "filter": "darkgray", "item_count": 1,
+      "descs": [
+      ]
+    },
+    { "name": "Light Gray", "filter": "lightgray", "item_count": 1,
+      "descs": [
+      ]
     }
   ]
 }
