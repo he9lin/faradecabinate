@@ -10,6 +10,7 @@ $(document).ready(function(){
     });
     return false;
   });
+
   // Isotope Activation
   $('.isotope-container').imagesLoaded(function() {
     $(".isotope-container").isotope({

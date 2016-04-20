@@ -76,6 +76,10 @@
       "descs": [
       ]
     },
+    { "name": "Sample Door", "filter": "sampledoor", "item_count": 7,
+      "descs": [
+      ]
+    },
     { "name": "Dark Gray", "filter": "darkgray", "item_count": 1,
       "descs": [
       ]
