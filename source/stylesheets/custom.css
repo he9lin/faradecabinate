@@ -17,6 +17,12 @@
 .bg-j-4 {
     background-image: url("../images/4.jpg");
 }
+.bg-j-5 {
+    background-image: url("../images/5.jpg");
+}
+.bg-j-6 {
+    background-image: url("../images/6.jpg");
+}
 #logo-a-w {
     width: 205px;
 }
