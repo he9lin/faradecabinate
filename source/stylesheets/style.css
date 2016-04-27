@@ -1193,14 +1193,14 @@ form label.error {
     }
 
 .header.sticky .logo a {
-    width: 115px;
-    margin-top: 23px;
+    width: 100px;
+    margin-top: 12px;
 }
 
 .logo a img {
     position: absolute;
     width: 100%;
-    opacity: 0;
+    opacity: 1;
     display: block;
 }
 
